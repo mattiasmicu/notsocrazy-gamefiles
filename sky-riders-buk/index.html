@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>body{margin:0;padding:0;width:100vw;height:100vh;background:#000;overflow:hidden;}</style>
+  </head>
+  <body>
+    <canvas id="unity-canvas" style="width:100%;height:100%"></canvas>
+    <script src="/games/sky-riders-buk/a9ca25dad32ea4465298c2a33b5cc5e4.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        codeUrl: "/games/sky-riders-buk/b6a88957bd0da804399c52d3f24e4c48.wasm.br",
+        dataUrl: "/games/sky-riders-buk/astc_1925c7250cdfdbd8df382b81c944041c.data.br",
+        frameworkUrl: "/games/sky-riders-buk/5066719154d58ab5ebaa57b6d0fbced3.framework.js.br",
+        streamingAssetsUrl: "/games/sky-riders-buk/StreamingAssets",
+        companyName: "Default",
+        productName: "Game",
+        productVersion: "1.0"
+      });
+    </script>
+  </body>
+</html>
